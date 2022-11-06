@@ -31,13 +31,13 @@ let handler = async (m, { conn, args, command }) => {
        }
        let tag = `@${m.sender.replace(/@.+/, '')}`
   let mentionedJid = [m.sender]
-let scnya = `⟥⟞⟚━┈┈ ❨ Hʏ ${tag} ❩ ┈┈━⟚⟝⟤`
-    let footerny = `┆📮 *ɴᴏᴛᴇ!* : Jɪᴋᴀ ᴋᴀʟɪᴀɴ ᴍᴇɴɢɢᴜɴᴀᴋᴀɴ ᴀᴛᴀᴜ ᴄᴏᴘᴀs ᴅᴀʀɪ sᴄʀɪᴘᴛ ɪɴɪ ᴍᴀᴋᴀ ᴄʀᴇᴅɪᴛ ᴅᴀʀɪ sᴄᴇɪᴘᴛ ɪɴɪ ʜᴀʀᴜs ᴀᴅᴀ.\n┆📑  *Base* : https://github.com/ImYanXiao/Elaina-MultiDevice\n┆🥊 *Sᴄʀɪᴘᴛ* : ${snh}\n\n\n${readMore}┆ *I Love You:v*`
- conn.send3ButtonImg(m.chat, `https://telegra.ph/file/bf8b82dc34d14d25e67b8.jpg`, scnya, footerny, 'Menu', '.menu', 'Owner', '.owner', 'Credit', '.credit', m, { contextInfo: { externalAdReply: { showAdAttribution: true,
-    mediaUrl: 'https://instagram.com/b4c00t4an_s3l3b',
+let scnya = `⟥⟞⟚━┈ ❨ Hʏ ${tag} ❩ ┈━⟚⟝⟤`
+    let footerny = `*Mau Sc Lu?*\nKlik Baca Selengkapnya \n\n\n${readMore}┆ *Gk Ada:v*`
+ conn.send3ButtonImg(m.chat, `https://telegra.ph/file/24f80ccca9eb0a4516ed7.jpg`, scnya, footerny, 'Menu', '.menu', 'Owner', '.owner', 'Credit', '.credit', m, { contextInfo: { externalAdReply: { showAdAttribution: true,
+    mediaUrl: 'https://youtu.be/P8HVZn4dmVg',
     mediaType: 2, 
-    description: sgc,
-    title: "Jᴏɪɴ Sɪɴɪ Cᴜʏ",
+    description: sgc, 
+    title: "Awokawok 🗿",
     body: wm,
     thumbnail: fs.readFileSync('./thumbnail.jpg'),
     sourceUrl: sgc
