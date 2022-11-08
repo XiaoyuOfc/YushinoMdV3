@@ -43,7 +43,7 @@ global.owner = [
 ['84978005798', 'Aldi', true]
 ]
 global.mods = []
-global.prems = []
+global.prems = ['6287713284710']
 global.nomorbot = '6281335334848'
 global.nomorown = '84978005798'
 global.nomorown1 = '84978005798'
